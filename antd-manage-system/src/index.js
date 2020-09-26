@@ -5,12 +5,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Admin from './admin';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <Admin />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+ReactDOM.render(<Admin />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

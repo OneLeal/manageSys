@@ -20,7 +20,7 @@ export default class Admin extends Component {
                     <Row className={'main'}>
                         content
                     </Row>
-                    
+
                     <FooterComponent />
                 </Col>
             </Row>
