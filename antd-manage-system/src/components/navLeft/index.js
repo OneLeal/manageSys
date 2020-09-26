@@ -42,7 +42,7 @@ export default class NavLeftComponent extends Component {
         return (
             <Row>
                 <Col span={'24'}>
-                    <Row>
+                    <Row className={'menuHead'}>
                         <Col span={'10'} className={'logo'}>
                             <img src="/assets/logo-ant.svg" alt=""/>
                         </Col>
