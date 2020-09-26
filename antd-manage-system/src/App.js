@@ -13,6 +13,8 @@ function App() {
         </p>
 
         <Button type="primary">点 击</Button>
+        <br/>
+        <Button danger>撤 销</Button>
 
         <a
           className="App-link"
