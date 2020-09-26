@@ -44,7 +44,7 @@ module.exports = {
 
         // 配置别名
         addWebpackAlias({
-            '@': path.resolve(__dirname, 'src'),
+            ["@"]: path.resolve(__dirname, 'src'),
         }),
 
         // 全局引入公共的 less 文件
